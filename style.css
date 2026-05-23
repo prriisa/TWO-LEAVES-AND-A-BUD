@@ -1,0 +1,66 @@
+@font-face {
+    font-family:figtree;
+    src: url(./font/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2);
+}
+@font-face {
+    font-family: RobotoMono;
+    src: url(./font/RobotoMono-Regular.ttf);
+}
+@font-face {
+    font-family: Reckless;
+    src: url(./font/RecklessCondensedS-TRIAL-Book.woff);
+}
+@font-face {
+    font-family: Robotomedium;
+    src: url(./font/RobotoMono-Medium.ttf);
+}
+@font-face {
+    font-family: midnight;
+    src: url(./font/midnight-sans-rd-12-semibold-trial.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+header{
+    background-color: pink;
+    width: 100%;
+}
+.header-1{
+    padding: 0.3rem;
+}
+
+.header-2{
+    padding: 0.5rem 0.8rem;
+}
+.navbar-1 h2{
+    font-size: 1.2rem;
+}
+.navbar-1 h2 button{
+    background-color: rgb(193, 228, 248);
+}
+section.hero{
+    width: 100%;
+    height: 95vh;
+    background: url(./hero-img/Alpine-web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-2 p{
+    font-size: 3.2rem;
+    padding: 5rem;
+    font-family: Reckless;
+}
+.bestseller{
+    font-size: 3rem;
+    background-color: #DAAEEA;
+    width:fit-content;
+    margin: -2rem 0.3rem;
+}
