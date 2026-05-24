@@ -2,6 +2,7 @@ let mainContainer = document.querySelector(".main-container");
 let bestSellerDiv = document.querySelector(".section-3-div");
 let bestSellerContainer = document.querySelectorAll(".section-3-container");
 let bestSellerButton = document.querySelector(".section-3-button");
+let blank = document.querySelector(".blank");
 
 bestSellerButton.addEventListener("click", function () {
 
@@ -38,4 +39,32 @@ bestSellerButton.addEventListener("click", function () {
     });
 });
 
+(function blank() {
+    let tea = ["iced tea", "herbal tea", "green tea", "black tea", "chai tea"];
+    let blank = document.querySelector(".blank");
+    let i = 0;
+    let j = 0;
+    let isDeleting = false;
+    setInterval(function () {
+        if (!isDeleting) {
+            blank.textContent = tea[i].slice(0, j);
+            j++;
+            if (j > tea[i].length) {
+                isDeleting = true;
+            }
+        }
+        else {
+            blank.textContent = tea[i].slice(0, j);
+            j--;
+            if (j < 0) {
+                isDeleting = false;
+                i++;
+                if (i >= tea.length) {
+                    i = 0;
+                }
+                j = 0;
+            }
+        }
+    }, 100);
 
+})();
