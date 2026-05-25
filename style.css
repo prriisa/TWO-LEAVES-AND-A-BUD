@@ -113,7 +113,6 @@ section.hero {
     padding: 0.5rem 2.7rem;
     font-size: 0.9rem;
     border: 0.2px solid transparent;
-
 }
 
 .hero-button:hover {
@@ -158,7 +157,7 @@ section.hero {
 }
 
 .add:hover,
-.section-5 .hero-button:hover, .section-7 .hero-button:hover {
+.section-5 .hero-button:hover, .section-7 .hero-button:hover, .section-8 .hero-button:hover {
     background-color: #292756;
     color: white;
 }
@@ -230,4 +229,13 @@ section.hero {
 }
 .section-7-div p:nth-child(2){
     font-size: 1.2rem;
+}
+.section-8-heading{
+    font-size: 4rem;
+}
+.section-8{
+    padding: 6rem 1.5rem 1.5rem 1.5rem;
+}
+.section-8-subdiv{
+    padding: 3rem 2rem;
 }
