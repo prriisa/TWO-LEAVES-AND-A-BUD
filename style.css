@@ -157,7 +157,9 @@ section.hero {
 }
 
 .add:hover,
-.section-5 .hero-button:hover, .section-7 .hero-button:hover, .section-8 .hero-button:hover {
+.section-5 .hero-button:hover,
+.section-7 .hero-button:hover,
+.section-8 .hero-button:hover {
     background-color: #292756;
     color: white;
 }
@@ -208,34 +210,122 @@ section.hero {
     line-height: 3rem;
     margin-bottom: 5rem;
 }
-.section-6 .section-4-p{
+
+.section-6 .section-4-p,
+.section-9 .section-4-p {
     padding: 7rem 0 0 7rem;
 }
-.section-6-container{
+
+.section-6-container {
     padding-bottom: 5rem;
 }
-.section-6-h1{
+
+.section-6-h1 {
     margin-top: -30px;
 }
-.shop{
+
+.shop {
     padding: 0.5rem;
     font-size: 0.8rem;
 }
-.section-7 .section-4-p{
+
+.section-7 .section-4-p {
     font-size: 3.8rem;
 }
-.section-7-div{
+
+.section-7-div {
     padding: 0 0 0 3rem;
 }
-.section-7-div p:nth-child(2){
+
+.section-7-div p:nth-child(2) {
     font-size: 1.2rem;
 }
-.section-8-heading{
+
+.section-8-heading {
     font-size: 4rem;
 }
-.section-8{
+
+.section-8 {
     padding: 6rem 1.5rem 1.5rem 1.5rem;
 }
-.section-8-subdiv{
+
+.section-8-subdiv {
     padding: 3rem 2rem;
+}
+
+.section-9 {
+    padding: 0 0 4rem 0;
+}
+.section-9-img:hover{
+    .section-9-img img{
+        transition: 0.3s;
+        scale: 1.1;
+    }
+}
+.section-9-div p {
+    padding: 0 0 0 0.3rem;
+}
+
+.section-10 {
+    background-image: url("https://www.twoleavestea.com/cdn/shop/files/Two_Leaves_Tea_Aug_25_Shoot-14x_SQ_1_d549e6bb-f1ad-4b36-a851-05e1af195a31.webp?v=1771593222&width=3200");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 0 2.5rem;
+}
+.section-10 div{
+    padding: 6rem 0 2.5rem 2.5rem;
+}
+.search {
+    margin: 5rem 0;
+}
+
+.search-bar input {
+    border: 0.2px solid black;
+    padding: 0.6rem 6rem 0.6rem 1rem;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.search-bar .hero-button:hover {
+    background-color: #FFB500;
+}
+
+.contact {
+    padding: 2rem;
+}
+
+.contact h1 {
+    padding-bottom: 0.6rem;
+}
+
+.contact p {
+    position: relative;
+    font-size: 0.9rem;
+    width: fit-content;
+}
+
+.contact p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 0.1px;
+}
+
+.contact p:hover {
+    color: white;
+}
+
+.contact p:hover::after {
+    transition: 0.3s;
+    width: 100%;
+    background-color: white;
+}
+
+.end {
+    background: url(./footer/Gemini_Generated_Image_6d324u6d324u6d32.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 1rem 0;
 }
