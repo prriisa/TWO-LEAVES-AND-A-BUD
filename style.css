@@ -53,11 +53,6 @@ body {
     background: #555;
 }
 
-header {
-    background-color: pink;
-    width: 100%;
-}
-
 .header-1 {
     padding: 0.3rem;
 }
@@ -256,12 +251,14 @@ section.hero {
 .section-9 {
     padding: 0 0 4rem 0;
 }
-.section-9-img:hover{
-    .section-9-img img{
+
+.section-9-img:hover {
+    .section-9-img img {
         transition: 0.3s;
         scale: 1.1;
     }
 }
+
 .section-9-div p {
     padding: 0 0 0 0.3rem;
 }
@@ -272,9 +269,11 @@ section.hero {
     background-size: cover;
     padding: 0 0 0 2.5rem;
 }
-.section-10 div{
+
+.section-10 div {
     padding: 6rem 0 2.5rem 2.5rem;
 }
+
 .search {
     margin: 5rem 0;
 }
@@ -328,4 +327,49 @@ section.hero {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 0 1rem 0;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* RESPONSIVE DESIGN STARTS FROM HERE */
+
+@media (max-width:1440px) {
+    .header-1 {
+        font-size: 0.7rem;
+    }
+
+    .header-2 p {
+        font-size: 0.7rem;
+    }
+
+    .header-2 {
+        padding: 0.9rem 1.2rem;
+    }
+
+    .navbar-1 {
+        width: 34%;
+    }
+
+    .navbar-1 h2 {
+        font-size: 1.4rem;
+    }
+
+    .navbar-2 {
+        width: 5rem;
+    }
+
+    .hero h1 {
+        font-size: 3.8vw;
+    }
+
+    .section-2 p {
+        font-size: 3.5rem;
+    }
+
+    .section-3-div {
+        width: auto;
+        grid-template-columns: repeat(9, 21rem);
+    }
+
 }
