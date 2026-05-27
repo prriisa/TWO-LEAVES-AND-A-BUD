@@ -96,7 +96,7 @@ body {
 
 section.hero {
     width: 100%;
-    height: 95vh;
+    min-height: 95vh;
     background: url(./hero-img/Alpine-web.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -267,6 +267,7 @@ section.hero {
     background-image: url("https://www.twoleavestea.com/cdn/shop/files/Two_Leaves_Tea_Aug_25_Shoot-14x_SQ_1_d549e6bb-f1ad-4b36-a851-05e1af195a31.webp?v=1771593222&width=3200");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 30% center;
     padding: 0 0 0 2.5rem;
 }
 
@@ -326,6 +327,7 @@ section.hero {
     background: url(./footer/Gemini_Generated_Image_6d324u6d324u6d32.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 0 0 1rem 0;
 }
 
@@ -334,7 +336,7 @@ section.hero {
 
 /* RESPONSIVE DESIGN STARTS FROM HERE */
 
-@media (max-width:1440px) {
+@media (max-width:1024px) {
     .header-1 {
         font-size: 0.7rem;
     }
@@ -360,16 +362,500 @@ section.hero {
     }
 
     .hero h1 {
-        font-size: 3.8vw;
+        font-size: 5vw;
+        width: 40%;
     }
 
-    .section-2 p {
-        font-size: 3.5rem;
+    .hero p {
+        width: 50%;
     }
 
     .section-3-div {
         width: auto;
         grid-template-columns: repeat(9, 21rem);
+    }
+
+    .hero-button {
+        font-size: 1.1rem;
+    }
+
+    .heading {
+        font-size: 3.4rem;
+    }
+
+    .section-4 {
+        width: 90%;
+    }
+
+    .section-4-p {
+        font-size: 3.6rem;
+    }
+
+    .hashtags p {
+        font-size: 1rem;
+    }
+
+    .hashtag .heading {
+        font-size: 2rem;
+    }
+
+    .section-5-logo-1 {
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+
+    .section-5-heading {
+        font-size: 11rem;
+    }
+
+    .section-5-p {
+        font-size: 3.45rem;
+        line-height: 4rem;
+    }
+
+    .section-5-logos img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .section-5-logo-h {
+        font-size: 1.1rem;
+    }
+
+    .section-6-container {
+        width: 98%;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .section-8-subdiv h1 {
+        flex-wrap: nowrap;
+        font-size: 1.1rem;
+    }
+
+    .tea-img {
+        width: 100%;
+    }
+
+    .section-6 .section-4-p,
+    .section-9 .section-4-p {
+        padding: 7rem 0 0 0rem;
+        width: 90%;
+    }
+
+    .section-6-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .search-bar {
+        width: 80%;
+    }
+
+    .contact {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact p {
+        font-size: 1.2rem;
+    }
+}
+
+/* ------------------------------------------------------------------- */
+
+@media (max-width:768px) {
+    .header-1 {
+        font-size: 0.8rem;
+    }
+
+    .navbar-1 h2,
+    .header-2 p {
+        display: none;
+    }
+
+    .header-2 {
+        padding: 0.9rem 1.2rem;
+    }
+
+    .menu {
+        display: initial;
+    }
+
+    .navbar-1 {
+        width: fit-content;
+    }
+
+    section.hero {
+        background: url(./hero-img/AlpineBerry_mobile.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 7vw;
+        width: 100%;
+    }
+
+    .hero p {
+        width: 100%;
+    }
+
+    .hero .hero-button {
+        width: 100%;
+        padding: 0.8rem 0;
+        border-radius: 30px;
+    }
+
+    .section-2 p {
+        width: 65%;
+        font-size: 1.7rem;
+    }
+
+    .section-3-div {
+        width: auto;
+        grid-template-columns: repeat(9, 21rem);
+    }
+
+    .heading {
+        font-size: 2.4rem;
+    }
+
+    .section-4 {
+        width: 90%;
+    }
+
+    .section-4-p {
+        width: 70%;
+        font-size: 2rem;
+    }
+
+    .blank {
+        width: 98%;
+        padding: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .section-5-logo-1 {
+        right: 2rem;
+    }
+
+    .section-5-heading {
+        font-size: 7.5rem;
+        line-height: 7rem;
+    }
+
+    .section-5-p {
+        font-size: 2rem;
+        line-height: 2.3rem;
+        width: 43%;
+        margin-bottom: 0;
+    }
+
+    .section-5 button {
+        margin: -8rem 0 0 0;
+        width: 98%;
+        padding: 0.55rem;
+    }
+
+    .section-6 .section-6-container {
+        width: 98%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .section-6-div h1 {
+        font-size: 1.8rem;
+    }
+
+    .section-6-div div {
+        height: 4.5rem;
+    }
+
+    .shop {
+        position: absolute;
+        right: 0.5rem;
+    }
+
+    .section-7 {
+        flex-direction: column;
+    }
+
+    .section-7 div {
+        width: 100%;
+        height: 80vh;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .section-8-heading {
+        width: 50%;
+        line-height: 4rem;
+    }
+
+    .tea {
+        gap: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tea-container {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .tea-img {
+        position: absolute;
+        left: -5rem;
+    }
+
+
+    .section-8-subdiv {
+        align-items: center;
+    }
+
+    .section-8-subdiv h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .section-8 .section-4-p {
+        width: 100%;
+        text-align: center;
+        font-size: 2.6rem;
+    }
+
+
+    .section-9-div {
+        min-height: 65vh;
+    }
+
+    .section-9 .section-6-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tag-1 {
+        font-size: 1.5rem;
+    }
+
+    .section-9-div p {
+        font-size: 1rem;
+    }
+
+    .search {
+        width: 95%;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .contact {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact p {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* -------------------------------------------------------------------- */
+
+@media (max-width:500px) {
+    .contact {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* -------------------------------------------------------------------- */
+
+@media (max-width:440px) {
+    .header-2 {
+        width: 95%;
+        border-radius: 14px;
+    }
+
+    section.hero {
+        padding: 1rem;
+
+    }
+
+    .hero h1 {
+        font-size: 12vw;
+        line-height: 14vw;
+    }
+
+
+    .section-2 p {
+        width: 100%;
+        padding: 7rem 2.1rem;
+
+        font-size: 2rem;
+    }
+
+    .section-4-p {
+        width: 90%;
+        font-size: 2rem;
+    }
+
+    .section-5-p {
+        width: 82%;
+    }
+
+    .section-5 button {
+        width: 95%;
+    }
+
+    .section-5-logo {
+        gap: 2rem;
+    }
+
+    .section-5-logo p {
+        width: 80%;
+    }
+
+    .section-6 .section-6-container {
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    .section-7 {
+        padding: 0 0 5rem 0;
+        flex-direction: column;
+    }
+
+    .section-8-heading {
+        text-align: center;
+        width: 95%;
+    }
+
+    .tea {
+        gap: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-8-subdiv {
+        padding: 0 2rem 2rem 2rem;
+        align-items: center;
+    }
+
+
+    .section-9 .section-6-container {
+        width: 85%;
+        gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .search {
+        width: 95%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .search-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .icons {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .section-5-heading {
+        font-size: 6rem;
+    }
+
+    .section-10 {
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-10 div {
+        width: 90%;
+    }
+
+}
+
+/* -------------------------------------------------------------------- */
+
+@media (max-width:376px) {
+    .hero h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .section-5 {
+        padding: 15rem 0 -10rem 0;
+        gap: 7rem;
+    }
+
+    .section-5-heading {
+        font-size: 5rem;
+        line-height: 5.2rem;
+    }
+
+    .section-5 button {
+        margin: 0;
+    }
+
+    .section-5-logo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "div1 div2"
+            "div3 div3";
+        gap: 2rem;
+    }
+
+    .section-5-logo>div:nth-child(1) {
+        grid-area: div1;
+    }
+
+    .section-5-logo>div:nth-child(2) {
+        grid-area: div2;
+    }
+
+    .section-5-logo>div:nth-child(3) {
+        grid-area: div3;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-6 .section-6-container {
+        width: 100%;
+    }
+
+    .section-7 div {
+        height: 60vh;
+    }
+
+    .section-7 .section-4-p {
+        font-size: 3rem;
+    }
+    .section-7-div{
+        margin-top: 4rem;
     }
 
 }
