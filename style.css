@@ -239,6 +239,9 @@ section.hero {
 .section-8-heading {
     font-size: 4rem;
 }
+.section-8-subdiv h1{
+    width: 60%;
+}
 
 .section-8 {
     padding: 6rem 1.5rem 1.5rem 1.5rem;
